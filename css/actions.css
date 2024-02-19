@@ -1,0 +1,15 @@
+div.serverselect div.actions {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+  padding: 10px;
+  background-color: var(--button-bg);
+  border-top: var(--win-border);
+  margin-top: 20px;
+}
+
+div.serverselect div.actions button {
+  margin: 0;
+}

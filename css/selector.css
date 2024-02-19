@@ -1,0 +1,82 @@
+div.serverselect div.selector {
+  background-color: var(--win-bg);
+  width: 550px;
+  min-height: 400px;
+  max-height: 400px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+div.serverselect window div.body div.selector div.options button.option {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  border: none;
+  margin: none;
+  padding: 10px;
+  color: var(--fg);
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+div.serverselect window div.body div.selector div.options button.option.selected {
+  background-color: var(--button-glass-bg);
+}
+
+div.serverselect div.selector div.options button.option + button.option {
+  margin-top: 10px;
+}
+
+div.serverselect window div.body div.selector div.options button.option:hover {
+  background-color: var(--button-glass-bg);
+}
+
+div.serverselect window div.body div.selector div.options button.option:active {
+  transform: scale(1);
+  opacity: 0.5;
+}
+
+div.serverselect div.selector button.option p {
+  margin: 0;
+}
+
+div.serverselect div.selector button.option span.material-icons-round {
+  margin-left: auto;
+  font-size: 20px;
+  transition: none !important;
+}
+
+div.serverselect div.selector div.options {
+  min-height: calc(100% - 70px);
+  max-height: calc(100% - 70px);
+  overflow-y: auto;
+  padding: 20px;
+}
+
+div.serverselect div.selector div.right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+div.serverselect div.selector button.option:not(.selected) div.right button.delete {
+  display: none;
+}
+
+div.serverselect window div.body div.selector div.right button.delete {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  color: var(--clr-red-fg);
+  font-size: 20px;
+}
+
+div.serverselect div.selector button.option.selected div.right button.delete + span {
+  padding-left: 10px;
+  border-left: var(--win-border);
+  margin-left: 5px;
+}
