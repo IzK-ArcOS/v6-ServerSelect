@@ -29,9 +29,9 @@
   <img src={ConnectIcon} alt="" class="icon" />
   <p class="caption">{server.hostname}</p>
   <div class="right">
-    <button class="delete material-icons-round" on:click={remove}>delete</button>
     {#if server.private}
       <span class="material-icons-round">lock</span>
     {/if}
+    <button class="delete material-icons-round" on:click={remove}>delete</button>
   </div>
 </button>
