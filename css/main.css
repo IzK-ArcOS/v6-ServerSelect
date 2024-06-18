@@ -24,7 +24,7 @@ div.serverselect > div.content {
   background-color: var(--bg);
   color: var(--fg);
   border: var(--content-border);
-  border-radius: 10px;
+  border-radius: var(--win-border-rad);
   font-family: var(--font);
   font-size: var(--font-size);
   padding: 20px;
