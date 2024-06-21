@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { ConnectIcon } from "$ts/images/general";
   import { getAllServers, getServer } from "$ts/server/multi";
   import { PrimaryState } from "$ts/states";
   import { sleep } from "$ts/util";
@@ -6,7 +7,6 @@
   import { onMount } from "svelte";
   import Selector from "./Components/Selector.svelte";
   import "./css/main.css";
-  import { ConnectIcon } from "$ts/images/general";
 
   let selected = "";
   let servers: ServerSelectOption[] = [];
