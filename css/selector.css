@@ -22,6 +22,11 @@ div.serverselect div.selector div.options button.option {
   background-color: transparent;
   padding: 0 10px;
   color: var(--fg);
+  margin-bottom: 5px;
+}
+
+div.serverselect div.selector div.options button.option:hover {
+  background-color: var(--button-bg);
 }
 
 div.serverselect div.selector div.options button.option.selected {
