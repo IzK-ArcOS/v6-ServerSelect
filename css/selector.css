@@ -8,6 +8,7 @@ div.serverselect div.selector div.options {
   max-height: calc(100% - 34px - 70px);
   flex-grow: 1;
   overflow-y: scroll;
+  margin-right: -8px;
 }
 
 div.serverselect div.selector div.options button.option {
