@@ -26,7 +26,7 @@
   });
 </script>
 
-<div class="serverselect theme-dark fullscreen" class:show>
+<div class="serverselect theme-system fullscreen" class:show>
   <div class="content">
     <div class="header">
       <div class="text">
